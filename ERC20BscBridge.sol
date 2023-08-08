@@ -20,7 +20,7 @@ contract Jax2BscBridge {
 
   address public penalty_wallet;
 
-  IERC20 public erc20 ;//= IERC20(0x643aC3E0cd806B1EC3e2c45f9A5429921422Cd74);
+  IERC20 public erc20 ;
 
 
   enum RequestStatus {Init, Proved, Rejected, Expired, Released}
